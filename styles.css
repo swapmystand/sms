@@ -137,7 +137,7 @@ body {
 h1 {
     font-size: 3em;
     margin: 0;
-    font-weight: 350;
+    font-weight: 400;
     animation: fadeIn 3s ease-in-out;
 }
 
@@ -152,7 +152,7 @@ footer {
 a {
     color: #a3a3a3;
     text-decoration: none;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 a:hover {
