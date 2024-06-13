@@ -114,8 +114,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Proxima Nova', Arial, sans-serif;
-    background-color: #39393A;
-    color: #a3a3a3;
+/*    background-color: #39393A;*/
+    background: linear-gradient(135deg, #46464f 0%, #334d66 100%);
+    color: #eef3f5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,7 +152,7 @@ footer {
 }
 
 a {
-    color: #a3a3a3;
+    color: #eef3f5;
     text-decoration: none;
     font-weight: 400;
 }
