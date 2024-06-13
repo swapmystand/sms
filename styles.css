@@ -138,7 +138,7 @@ h1 {
     font-size: 3em;
     margin: 0;
     font-weight: 400;
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
 }
 
 footer {
@@ -147,6 +147,7 @@ footer {
     text-align: center;
     width: 100%;
     font-size: 1.3em;
+    animation: fadeIn 3s ease-in-out;
 }
 
 a {
@@ -429,5 +430,14 @@ a:hover {
 
   to {
     transform: rotate(-1turn);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
